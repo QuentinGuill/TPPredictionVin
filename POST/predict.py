@@ -9,5 +9,6 @@ router = APIRouter(
 
 
 @router.post("/")
-async def create_wine(wine: Wine):
-    return wine
+async def rate_wine(wine: Wine):
+    return { "Prédiction": "Je prédit que l'API marche!" }
+    

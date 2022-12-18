@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from dependencies import Wine
 
 router = APIRouter(
         prefix="/api/predict",
@@ -7,5 +8,5 @@ router = APIRouter(
 
 
 @router.get("/")
-async def root():
-    return { "Prédiction": "Je prédit que l'API marche!" }
+async def give_grade():
+    return { "Vin parfait": "Un vin" }
