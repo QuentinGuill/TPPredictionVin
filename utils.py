@@ -1,4 +1,0 @@
-VERSION = "0.01"
-URL_DOC = "127.0.0.1/docs"
-URL_SWAGGER = "127.0.0.1/docs"
-CONTACTS = ""
